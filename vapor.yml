@@ -1,8 +1,12 @@
 id: 64223
 name: Playground
+default-environment: production
 environments:
     production:
         domain: playground.opscale.co
+        storage: opscale-playground
+        database: playground
+        cache: playground
         memory: 512
         cli-memory: 512
         runtime: docker
@@ -13,7 +17,3 @@ environments:
             - 'php artisan config:cache'
             - 'php artisan event:cache'
             - 'php artisan route:cache'
-        deploy:
-            - 'php artisan migrate --force'
-            - 'php artisan db:seed --force'
-            - 'php artisan queue:restart'

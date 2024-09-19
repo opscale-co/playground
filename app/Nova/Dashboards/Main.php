@@ -2,7 +2,7 @@
 
 namespace App\Nova\Dashboards;
 
-use Laravel\Nova\Cards\Help;
+use App\Nova\Cards\PackageCard;
 use Laravel\Nova\Dashboards\Main as Dashboard;
 
 class Main extends Dashboard
@@ -15,7 +15,12 @@ class Main extends Dashboard
     public function cards()
     {
         return [
-            new Help,
+            new PackageCard(
+                'nova-catalogs',
+                'A simple repository for managing reusable data for a Nova app',
+                'https://github.com/opscale-co/nova-catalogs',
+                '/resources/catalogs'
+            ),
         ];
     }
 }

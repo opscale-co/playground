@@ -1,0 +1,19 @@
+id: 
+name: Nova
+environments:
+    production:
+        storage: nova
+        database: nova
+        cache: nova
+        memory: 1024
+        cli-memory: 512
+        runtime: 'php-8.2:al2'
+        octane: true
+        octane-database-session-persist: true
+        octane-database-session-ttl: 30
+        gateway-version: 2
+        separate-vendor: true
+        build:
+            - 'composer install --no-dev'
+            - 'php artisan event:cache'
+          # - 'npm ci && npm run build && rm -rf node_modules'

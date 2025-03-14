@@ -2,20 +2,24 @@
 
 namespace App\Nova\Dashboards;
 
-use Laravel\Nova\Cards\Help;
+use App\Nova\Cards\PackageCard;
 use Laravel\Nova\Dashboards\Main as Dashboard;
 
 class Main extends Dashboard
 {
-    /**
-     * Get the cards for the dashboard.
-     *
-     * @return array<int, \Laravel\Nova\Card>
-     */
+    public function label()
+    {
+        return 'Packages';
+    }
+
     public function cards(): array
     {
         return [
-            new Help,
+            new PackageCard(
+                'Opscale',
+                '/dashboards/main',
+                'https://github.com/opscale-co',
+                'fa-house'),
         ];
     }
 }

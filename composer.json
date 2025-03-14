@@ -2,7 +2,14 @@
     "name": "opscale-co/nova-template",
     "type": "project",
     "description": "A template for your next Laravel Nova app.",
-    "keywords": ["laravel", "nova", "template", "admin", "panel", "dashboard"],
+    "keywords": [
+        "laravel",
+        "nova",
+        "template",
+        "admin",
+        "panel",
+        "dashboard"
+    ],
     "license": "MIT",
     "repositories": [
         {
@@ -12,6 +19,7 @@
     ],
     "require": {
         "php": "^8.2",
+        "interaction-design-foundation/nova-html-card": "^3.4",
         "laravel/framework": "^11.0",
         "laravel/horizon": "^5.31",
         "laravel/nova": "^5.3",

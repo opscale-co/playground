@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f9aa62ed70321a543b140839b276d960",
+    "content-hash": "24ccdc3f63f8290276ef57415968eaeb",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.342.4",
+            "version": "3.342.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "65cc842b9998d415b05d635b6146d0728934ff4a"
+                "reference": "00523323c202121d2cc2e893a1bb7ff14928a5bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/65cc842b9998d415b05d635b6146d0728934ff4a",
-                "reference": "65cc842b9998d415b05d635b6146d0728934ff4a",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/00523323c202121d2cc2e893a1bb7ff14928a5bb",
+                "reference": "00523323c202121d2cc2e893a1bb7ff14928a5bb",
                 "shasum": ""
             },
             "require": {
@@ -153,9 +153,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.342.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.342.5"
             },
-            "time": "2025-03-11T18:27:07+00:00"
+            "time": "2025-03-13T18:04:13+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -1491,6 +1491,61 @@
             "time": "2025-02-18T19:00:36+00:00"
         },
         {
+            "name": "interaction-design-foundation/nova-html-card",
+            "version": "3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/InteractionDesignFoundation/nova-html-card.git",
+                "reference": "9a2f48475860d1c3883361300701f090d6764291"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/InteractionDesignFoundation/nova-html-card/zipball/9a2f48475860d1c3883361300701f090d6764291",
+                "reference": "9a2f48475860d1c3883361300701f090d6764291",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/nova": "^4.20 || ^5.0",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "interaction-design-foundation/coding-standard": "^0.3.0",
+                "orchestra/testbench-core": "^8.30 || ^9.7",
+                "phpunit/phpunit": "^11.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "InteractionDesignFoundation\\HtmlCard\\CardServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "InteractionDesignFoundation\\HtmlCard\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A Laravel Nova card to display arbitrary HTML content",
+            "keywords": [
+                "html",
+                "laravel",
+                "laravel-nova-card",
+                "markdown",
+                "nova",
+                "text"
+            ],
+            "support": {
+                "issues": "https://github.com/InteractionDesignFoundation/nova-html-card/issues",
+                "source": "https://github.com/InteractionDesignFoundation/nova-html-card/tree/3.4.0"
+            },
+            "time": "2024-12-15T12:02:18+00:00"
+        },
+        {
             "name": "laminas/laminas-diactoros",
             "version": "3.5.0",
             "source": {
@@ -1645,16 +1700,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v11.44.1",
+            "version": "v11.44.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "0883d4175f4e2b5c299e7087ad3c74f2ce195c6d"
+                "reference": "f85216c82cbd38b66d67ebd20ea762cb3751a4b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/0883d4175f4e2b5c299e7087ad3c74f2ce195c6d",
-                "reference": "0883d4175f4e2b5c299e7087ad3c74f2ce195c6d",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/f85216c82cbd38b66d67ebd20ea762cb3751a4b4",
+                "reference": "f85216c82cbd38b66d67ebd20ea762cb3751a4b4",
                 "shasum": ""
             },
             "require": {
@@ -1856,7 +1911,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-03-05T15:34:10+00:00"
+            "time": "2025-03-12T14:34:30+00:00"
         },
         {
             "name": "laravel/horizon",
@@ -1940,23 +1995,23 @@
         },
         {
             "name": "laravel/nova",
-            "version": "5.3.2",
+            "version": "5.4.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:laravel/nova.git",
-                "reference": "75c6cbc3354d7f4b0b0425d4b3b8b6a896d9152c"
+                "reference": "78d2a64be02f838e3dd8e827241c9e67bc8f63d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-75c6cbc3354d7f4b0b0425d4b3b8b6a896d9152c-zip-127300.zip",
-                "reference": "75c6cbc3354d7f4b0b0425d4b3b8b6a896d9152c",
-                "shasum": "94de5f011a453bf7c20ec2dbd67a4d7ca8a34090"
+                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-78d2a64be02f838e3dd8e827241c9e67bc8f63d4-zip-fdcdda.zip",
+                "reference": "78d2a64be02f838e3dd8e827241c9e67bc8f63d4",
+                "shasum": "9a90ba299557f884e5d9aa61f37103b68a787d04"
             },
             "require": {
                 "brick/money": "^0.8|^0.9|^0.10",
                 "ext-json": "*",
-                "illuminate/filesystem": "^10.48.23|^11.44.1|^12.1.1",
-                "illuminate/support": "^10.48.23|^11.44.1|^12.1.1",
+                "illuminate/filesystem": "^10.48.29|^11.44.1|^12.1.1",
+                "illuminate/support": "^10.48.29|^11.44.1|^12.1.1",
                 "inertiajs/inertia-laravel": "^1.3.2|^2.0",
                 "laravel/fortify": "^1.25.4",
                 "nesbot/carbon": "^2.62.1|^3.4",
@@ -2020,6 +2075,9 @@
                     "Testbench\\App\\": "tests/laravel/app/",
                     "Testbench\\Database\\Factories\\": "tests/laravel/database/factories/"
                 },
+                "exclude-from-classmap": [
+                    "tests/laravel"
+                ],
                 "files": [
                     "workbench/app/functions.php"
                 ]
@@ -2033,6 +2091,10 @@
                 "clear": [
                     "@php vendor/bin/testbench-dusk package:purge-skeleton --ansi",
                     "@php vendor/bin/testbench-dusk package:dusk-purge --ansi"
+                ],
+                "build:sync": [
+                    "@php bin/sync",
+                    "@build:assets"
                 ],
                 "build:dev-assets": [
                     "TAILWIND_MODE=build npm run dev",
@@ -2105,23 +2167,23 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravel/nova/tree/v5.3.2",
+                "source": "https://github.com/laravel/nova/tree/v5.4.0",
                 "issues": "https://github.com/laravel/nova/issues"
             },
-            "time": "2025-03-10T14:38:01+00:00"
+            "time": "2025-03-13T11:08:02+00:00"
         },
         {
             "name": "laravel/octane",
-            "version": "v2.8.1",
+            "version": "v2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/octane.git",
-                "reference": "951023e3c0ee8934d9f8338fd6495a0a969eefc4"
+                "reference": "74fef270e9f7d2dfbfd8f272de81aac839942c29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/octane/zipball/951023e3c0ee8934d9f8338fd6495a0a969eefc4",
-                "reference": "951023e3c0ee8934d9f8338fd6495a0a969eefc4",
+                "url": "https://api.github.com/repos/laravel/octane/zipball/74fef270e9f7d2dfbfd8f272de81aac839942c29",
+                "reference": "74fef270e9f7d2dfbfd8f272de81aac839942c29",
                 "shasum": ""
             },
             "require": {
@@ -2148,7 +2210,7 @@
                 "mockery/mockery": "^1.5.1",
                 "nunomaduro/collision": "^6.4.0|^7.5.2|^8.0",
                 "orchestra/testbench": "^8.21|^9.0|^10.0",
-                "phpstan/phpstan": "^1.10.15",
+                "phpstan/phpstan": "^2.1.7",
                 "phpunit/phpunit": "^10.4|^11.5",
                 "spiral/roadrunner-cli": "^2.6.0",
                 "spiral/roadrunner-http": "^3.3.0"
@@ -2198,7 +2260,7 @@
                 "issues": "https://github.com/laravel/octane/issues",
                 "source": "https://github.com/laravel/octane"
             },
-            "time": "2025-02-19T20:28:29+00:00"
+            "time": "2025-03-12T14:26:35+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -7987,16 +8049,16 @@
         },
         {
             "name": "laravel/nova-devtool",
-            "version": "v1.7.2",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/nova-devtool.git",
-                "reference": "d199869efbd84e5a5650194477e0bdb9d93106ca"
+                "reference": "5d9417742e3ca605bec3321b523c85f3b698a62c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/nova-devtool/zipball/d199869efbd84e5a5650194477e0bdb9d93106ca",
-                "reference": "d199869efbd84e5a5650194477e0bdb9d93106ca",
+                "url": "https://api.github.com/repos/laravel/nova-devtool/zipball/5d9417742e3ca605bec3321b523c85f3b698a62c",
+                "reference": "5d9417742e3ca605bec3321b523c85f3b698a62c",
                 "shasum": ""
             },
             "require": {
@@ -8008,10 +8070,10 @@
                 "symfony/polyfill-php83": "^1.31"
             },
             "conflict": {
-                "laravel/nova": "<5.3.2|>=6.0.0"
+                "laravel/nova": "<5.4.0|>=6.0.0"
             },
             "require-dev": {
-                "laravel/nova": "^5.3.2",
+                "laravel/nova": "^5.4.0",
                 "laravel/pint": "^1.17",
                 "orchestra/pest-plugin-testbench": "^2.0|^3.0",
                 "orchestra/testbench": "^8.30|^9.8|^10.0",
@@ -8043,9 +8105,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/nova-devtool/issues",
-                "source": "https://github.com/laravel/nova-devtool/tree/v1.7.2"
+                "source": "https://github.com/laravel/nova-devtool/tree/v1.8.0"
             },
-            "time": "2025-03-10T14:48:51+00:00"
+            "time": "2025-03-13T11:17:21+00:00"
         },
         {
             "name": "laravel/pail",

@@ -37,6 +37,7 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
     {
         return [
             new \Opscale\NovaWidgets\Tool,
+            new \Opscale\NovaWebhooks\Tool,
         ];
     }
 

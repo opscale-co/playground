@@ -27,6 +27,7 @@
         "laravel/tinker": "^2.10",
         "laravel/vapor-cli": "^1.65",
         "laravel/vapor-core": "^2.37",
+        "opscale-co/nova-webhooks": "^1.0",
         "opscale-co/nova-widgets": "^1.1"
     },
     "require-dev": {

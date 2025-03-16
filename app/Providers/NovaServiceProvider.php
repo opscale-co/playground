@@ -35,7 +35,9 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
      */
     public function tools(): array
     {
-        return [];
+        return [
+            new \Opscale\NovaWidgets\Tool,
+        ];
     }
 
     /**

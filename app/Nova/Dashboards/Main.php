@@ -20,6 +20,11 @@ class Main extends Dashboard
                 '/resources/widgets',
                 'https://github.com/opscale-co/nova-widgets',
                 'fa-code'),
+            new PackageCard(
+                'Nova Webhooks',
+                '/resources/webhooks',
+                'https://github.com/opscale-co/nova-webhooks',
+                'fa-webhook'),
         ];
     }
 }

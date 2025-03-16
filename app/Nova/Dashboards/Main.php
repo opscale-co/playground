@@ -16,10 +16,10 @@ class Main extends Dashboard
     {
         return [
             new PackageCard(
-                'Opscale',
-                '/dashboards/main',
-                'https://github.com/opscale-co',
-                'fa-house'),
+                'Nova Widgets',
+                '/resources/widgets',
+                'https://github.com/opscale-co/nova-widgets',
+                'fa-code'),
         ];
     }
 }

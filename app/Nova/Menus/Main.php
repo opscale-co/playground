@@ -13,6 +13,10 @@ class Main
             MenuSection::make('Resources', [
                 MenuItem::resource(\App\Nova\User::class),
             ])->icon('database')->collapsable(),
+
+            MenuSection::make('DOM', [
+                MenuItem::resource(\Opscale\NovaWidgets\Nova\Widget::class),
+            ])->icon('puzzle')->collapsable(),
         ];
     }
 }

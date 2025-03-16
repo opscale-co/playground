@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "24ccdc3f63f8290276ef57415968eaeb",
+    "content-hash": "e8cd4ce26500517204f7e03626628f01",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.342.5",
+            "version": "3.342.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "00523323c202121d2cc2e893a1bb7ff14928a5bb"
+                "reference": "2ad93ef447289da27892707efa683c1ae7ced85f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/00523323c202121d2cc2e893a1bb7ff14928a5bb",
-                "reference": "00523323c202121d2cc2e893a1bb7ff14928a5bb",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2ad93ef447289da27892707efa683c1ae7ced85f",
+                "reference": "2ad93ef447289da27892707efa683c1ae7ced85f",
                 "shasum": ""
             },
             "require": {
@@ -153,9 +153,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.342.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.342.6"
             },
-            "time": "2025-03-13T18:04:13+00:00"
+            "time": "2025-03-14T18:01:18+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -3941,6 +3941,71 @@
                 }
             ],
             "time": "2025-01-30T13:51:11+00:00"
+        },
+        {
+            "name": "opscale-co/nova-widgets",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opscale-co/nova-widgets.git",
+                "reference": "4cc67d38494566f2491a5427883759d5682ac4c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opscale-co/nova-widgets/zipball/4cc67d38494566f2491a5427883759d5682ac4c4",
+                "reference": "4cc67d38494566f2491a5427883759d5682ac4c4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-readline": "*",
+                "php": ">=8.2"
+            },
+            "require-dev": {
+                "laravel/nova": "^5.4",
+                "laravel/nova-devtool": "^1.0",
+                "phpunit/phpunit": "^10.5",
+                "tightenco/duster": "^2.7"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Opscale\\NovaWidgets\\ToolServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Opscale\\NovaWidgets\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Opscale",
+                    "email": "development@opscale.co",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Insert HTML Widgets in the body of your Nova app",
+            "homepage": "https://github.com/opscale-co/nova-widgets",
+            "keywords": [
+                "html",
+                "laravel",
+                "nova",
+                "opscale",
+                "package",
+                "tool",
+                "widget"
+            ],
+            "support": {
+                "issues": "https://github.com/opscale-co/nova-widgets/issues",
+                "source": "https://github.com/opscale-co/nova-widgets/tree/v1.1.0"
+            },
+            "time": "2025-03-15T01:03:16+00:00"
         },
         {
             "name": "paragonie/constant_time_encoding",
@@ -8189,16 +8254,16 @@
         },
         {
             "name": "laravel/pint",
-            "version": "v1.21.1",
+            "version": "v1.21.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pint.git",
-                "reference": "c44bffbb2334e90fba560933c45948fa4a3f3e86"
+                "reference": "370772e7d9e9da087678a0edf2b11b6960e40558"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/c44bffbb2334e90fba560933c45948fa4a3f3e86",
-                "reference": "c44bffbb2334e90fba560933c45948fa4a3f3e86",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/370772e7d9e9da087678a0edf2b11b6960e40558",
+                "reference": "370772e7d9e9da087678a0edf2b11b6960e40558",
                 "shasum": ""
             },
             "require": {
@@ -8209,9 +8274,9 @@
                 "php": "^8.2.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.70.2",
-                "illuminate/view": "^11.44.1",
-                "larastan/larastan": "^3.1.0",
+                "friendsofphp/php-cs-fixer": "^3.72.0",
+                "illuminate/view": "^11.44.2",
+                "larastan/larastan": "^3.2.0",
                 "laravel-zero/framework": "^11.36.1",
                 "mockery/mockery": "^1.6.12",
                 "nunomaduro/termwind": "^2.3",
@@ -8251,7 +8316,7 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-            "time": "2025-03-11T03:22:21+00:00"
+            "time": "2025-03-14T22:31:42+00:00"
         },
         {
             "name": "laravel/sail",
@@ -10867,7 +10932,7 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,

@@ -16,6 +16,7 @@ class Main
 
             MenuSection::make('Integration', [
                 MenuItem::resource(\Opscale\NovaWebhooks\Nova\Webhook::class),
+                MenuItem::resource(\Opscale\NovaAPI\Nova\AccessToken::class),
             ])->icon('link')->collapsable(),
 
             MenuSection::make('DOM', [

@@ -25,6 +25,11 @@ class Main extends Dashboard
                 '/resources/webhooks',
                 'https://github.com/opscale-co/nova-webhooks',
                 'fa-webhook'),
+            new PackageCard(
+                'Nova API',
+                '/resources/access-tokens',
+                'https://github.com/opscale-co/nova-api',
+                'fa-circle-nodes'),
         ];
     }
 }

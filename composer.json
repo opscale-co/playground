@@ -29,6 +29,7 @@
         "laravel/vapor-cli": "^1.65",
         "laravel/vapor-core": "^2.37",
         "opscale-co/nova-api": "^1.0",
+        "opscale-co/nova-authorization": "^1.0",
         "opscale-co/nova-webhooks": "^1.0",
         "opscale-co/nova-widgets": "^1.1"
     },

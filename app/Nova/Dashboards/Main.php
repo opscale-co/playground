@@ -30,6 +30,11 @@ class Main extends Dashboard
                 '/resources/access-tokens',
                 'https://github.com/opscale-co/nova-api',
                 'fa-circle-nodes'),
+            new PackageCard(
+                'Nova Authorization',
+                '/resources/roles',
+                'https://github.com/opscale-co/nova-authorization',
+                'fa-user-shield'),
         ];
     }
 }

@@ -7,6 +7,7 @@ use Laravel\Nova\Auth\PasswordValidationRules;
 use Laravel\Nova\Fields\Gravatar;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Password;
+use Laravel\Nova\Fields\Tag;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
@@ -63,6 +64,9 @@ class User extends Resource
                 ->onlyOnForms()
                 ->creationRules($this->passwordRules())
                 ->updateRules($this->optionalPasswordRules()),
+
+            Tag::make(_('Roles'), 'roles', \Opscale\NovaAuthorization\Nova\Role::class)
+                ->hideFromIndex(),
         ];
     }
 
